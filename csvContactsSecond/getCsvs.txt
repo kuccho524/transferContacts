@@ -1,0 +1,5 @@
+# 登録した連絡先一覧をCSVに出力する
+gam user "TargetEmail" print contacts | iconv -f UTF-8 -t SHIFT-JIS > "CSVFileName.csv"
+
+# 作成したラベル一覧をCSVに出力する
+gam user "TargetEmail" print contactgroups | iconv -f UTF-8 -t SHIFT-JIS > "CSVFileName.csv"

@@ -1,0 +1,3 @@
+First Name,Last Name,Phonetic First Name,Phonetic Last Name,Organization Name,Organization Department,E-mail 1 - Label,E-mail 1 - Value,E-mail 2 - Label,E-mail 2 - Value,Labels
+Hanako,Tanaka,ハナコ,タナカ,Example Corp,Sales,仕事,hanako@example.com,,,"* myContacts ::: Team A ::: Vendor"
+Taro,Suzuki,タロウ,スズキ,Example Corp,Support,仕事,taro.primary@example.com,個人,taro.alt@example.com,"* myContacts ::: Team A"

@@ -1,0 +1,18 @@
+# 連絡先にラベルを登録する
+
+# 基本形式（2つのラベル）
+gam csv "CSVFileName.csv" gam user "~TargetEmail" update contacts "~ContactID" contactgroup "~PrimaryLabel" contactgroup "~SecondaryLabel"
+
+# 3つ以上のラベルがある場合
+gam csv "CSVFileName.csv" gam user "~TargetEmail" update contacts "~ContactID" contactgroup "~PrimaryLabel" contactgroup "~SecondaryLabel" contactgroup "~ThirdLabel"
+
+# 4つ以上のラベルがある場合
+gam csv "CSVFileName.csv" gam user "~TargetEmail" update contacts "~ContactID" contactgroup "~PrimaryLabel" contactgroup "~SecondaryLabel" contactgroup "~ThirdLabel" contactgroup "~FourthLabel"
+
+# 注意事項：
+# - ラベル数に応じて contactgroup "~列名" を追加してください
+# - CSVファイルに含まれるラベル列を確認してください（SecondaryLabel, ThirdLabel, FourthLabel, FifthLabel...）
+# - 空のラベル列がある場合は、そのcontactgroupパラメータを省略する必要があります
+
+# 動的対応例（PowerShellスクリプトで実装）：
+# CSVのヘッダー行を読み取り、*Label列を自動検出してcontactgroupパラメータを動的に生成

@@ -1,0 +1,3 @@
+resourceName,names.0.givenName,names.0.familyName,emailAddresses.0.value,emailAddresses.1.value
+people/c001,Hanako,Tanaka,hanako@example.com,
+people/c002,Taro,Suzuki,taro.alt@example.com,taro.primary@example.com

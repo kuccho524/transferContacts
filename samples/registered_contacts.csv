@@ -1,0 +1,3 @@
+FirstName,LastName,HiraganaFirstName,HiraganaLastName,OrganizationName,OrganizationDepartment,PrimaryEmailLabel,PrimaryEmailAddress,SecondaryEmailLabel,SecondaryEmailAddress
+Hanako,Tanaka,ハナコ,タナカ,Example Corp,Sales,work,hanako@example.com,,
+Taro,Suzuki,タロウ,スズキ,Example Corp,Support,home,taro.alt@example.com,work,taro.primary@example.com
