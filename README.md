@@ -2,7 +2,7 @@
 
 Google Contacts のエクスポート CSV をもとに、連絡先登録用 CSV の生成、GAM を使った登録、登録後データの照合、ラベル付与用 CSV の生成までを補助する Windows 向けツール群です。
 
-このリポジトリには実行プログラム、補助スクリプト、設計書、匿名化サンプルを含みます。実行時に生成される `runs/` と `logs/` は公開対象外です。
+このリポジトリには実行プログラム、補助スクリプト、設計書、匿名化サンプルを含みます。実行時に生成される `runs/` と `logs/` はリポジトリに含めません。
 
 ## 公開版の前提条件
 
@@ -27,8 +27,6 @@ Google Contacts のエクスポート CSV をもとに、連絡先登録用 CSV 
 
 - 統合GUI: `python transferContacts_master.py`
 - Step 6 単体CLI: `python csvContactsSecond/main.py ...`
-
-公開版では現行導線のみを含め、旧単体GUIや旧補助スクリプトは含めません。
 
 ## 起動方法
 
@@ -105,7 +103,6 @@ transferContacts/
 - 統合版の設計資料は `docs/` を参照してください
 - Step 6 相当の単体ツール説明は `csvContactsSecond/README.md` を参照してください
 - 匿名化済み入出力例は `samples/` を参照してください
-- 公開版では `legacy/` 配下の旧導線は配布対象に含めません
 - 変数名・関数名は英語だが、その説明コメントは日本語
 - console.log()のメッセージは日本語
 - エラーメッセージは日本語で出力

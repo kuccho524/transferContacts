@@ -8,6 +8,8 @@ tmp*/
 runs/
 logs/
 legacy/
+docs/基本設計書_統合版.md
+docs/詳細設計書_統合版.md
 
 .claude/
 .pytest_cache/

@@ -1,7 +1,6 @@
 ﻿# 基本設計書
 ## 連絡先ラベル登録CSV生成ツール（Python版）
 
-> 注記: 現行の公開導線は CLI 版 `csvContactsSecond/main.py` です。旧単体 GUI は公開版に含めません。
 
 ### 1. システム概要
 
@@ -305,4 +304,3 @@ csvContactsSecond/
 **作成日**: 2025-12-28
 **バージョン**: 2.0
 **作成者**: Claude Code
-

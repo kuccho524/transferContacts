@@ -2,7 +2,7 @@
 
 Google Contacts のエクスポートデータ、登録用 CSV、`contactgroups.csv`、`contacts.csv` を突合し、ラベル付与用の `contacts_labels_*.csv` を生成する補助ツールです。
 
-このディレクトリの現行サポート対象は CLI 版です。公開版には旧単体 GUI を含めません。
+このディレクトリの実行導線は CLI 版です。
 
 ## 前提条件
 
