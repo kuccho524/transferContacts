@@ -124,7 +124,9 @@ transferContacts/
 
 ## 作成者
 
-Claude Sonnet 4.5
+開発者：kuccho524
+開発補助：Claude Sonnet 4.5
+設計、要件整理、検証、匿名化、公開用調整は開発者が実施
 
 ---
 
